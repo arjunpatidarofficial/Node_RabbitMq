@@ -1,0 +1,19 @@
+{
+  "name": "node_rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publisher": "node publisher.js",
+    "subscriber": "node subscriber.js"
+  },
+  "keywords": [
+    "Node",
+    "RabbitMq"
+  ],
+  "author": "Arjun Patidar",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
